@@ -1,0 +1,13 @@
+method_of_delivery
+
+Attributes:
+delivery_types (array)
+delivery_in_progress (boolean)
+delivery_time (float)
+delivery_in_under_10_min (boolean)
+
+Methods:
+deliver_to_customer
+change_delivery_method
+change_delivery_address
+reverse_delivery
