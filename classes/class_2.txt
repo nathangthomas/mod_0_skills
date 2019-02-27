@@ -1,16 +1,14 @@
-customers
+class #2 = customers
 
 attributes:
-customer_name (string)
-customer_frequent_order (hash)
-time_ordered (datetime)
-customer_address (array)
-food_ordered (array)
+name (string)
+awards_card_member (boolean)
+date_of_membership (datetime)
+frequent_orders (hash)
 number_of_orders (integer)
-payed (boolean)
-left_for_delivery (boolean)
+customer_address (array)
 
 methods:
-  deliver_food
-  calculate_total
-  split_bill
+delete_order
+use_promo_code
+receive_food
