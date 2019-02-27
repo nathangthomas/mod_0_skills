@@ -1,0 +1,11 @@
+One class that may exist in a food ordering app
+1. food
+    -food_types (array)
+    -food_name (string)
+    -hot_or_not (boolean)
+    -is_it_vegetarian (boolean)
+    -rating (integer)
+    -price (float)
+    - order_food
+    - deliver_food
+    - add_item
