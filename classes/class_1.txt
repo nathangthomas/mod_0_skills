@@ -1,17 +1,17 @@
-food
+Class #1 = Food
 
 Attributes:
--food_types (array)
-    -food_groups (hash)
-    -food_weight (float)
-    -food_name (string)
-    -hot_or_not (boolean)
-    -is_it_vegetarian (boolean)
-    -rating (integer)
-    -price (float)
-    -time_prepared (datetime)
+name (string)
+nutritional_value (array)
+flavor_profile (hash)
+weight (float)
+is_it_vegetarian (boolean)
+hot_or_not (boolean)
+rating (integer)
+time_prepared (datetime)
+price (float)
 
 Methods:
-    - order_food
-    - deliver_food
-    - add_item
+order_food
+deliver_food
+add_item
