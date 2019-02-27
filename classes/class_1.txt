@@ -1,11 +1,13 @@
-One class that may exist in a food ordering app
-1. food
+food
     -food_types (array)
+    -food_groups (hash)
+    -food_weight (float)
     -food_name (string)
     -hot_or_not (boolean)
     -is_it_vegetarian (boolean)
     -rating (integer)
     -price (float)
+    -time_prepared (datetime)
     - order_food
     - deliver_food
     - add_item

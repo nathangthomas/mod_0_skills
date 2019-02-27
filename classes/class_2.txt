@@ -1,11 +1,16 @@
-A second class that may exist in a food ordering app
-1. customers
-    -customer_name (string)
-    -customer_address (array)
-    -food_ordered (array)
-    -number_of_orders (integer)
-    -payed (boolean)
-    -left_for_delivery (boolean)
-    - deliver_food
-    - calculate_total
-    - split_bill
+customers
+
+attributes:
+customer_name (string)
+customer_frequent_order (hash)
+time_ordered (datetime)
+customer_address (array)
+food_ordered (array)
+number_of_orders (integer)
+payed (boolean)
+left_for_delivery (boolean)
+
+methods:
+  deliver_food
+  calculate_total
+  split_bill
