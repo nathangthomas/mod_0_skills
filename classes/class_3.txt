@@ -1,13 +1,15 @@
-method_of_delivery
+class #3 = restaurants
 
 Attributes:
-delivery_types (array)
-delivery_in_progress (boolean)
-delivery_time (float)
-delivery_in_under_10_min (boolean)
+name (string)
+food_style(hash)
+menu_items (array)
+number_of_menu_items (integer)
+certified_organic (boolean)
+date_of_contract_review (datetime)
 
 Methods:
-deliver_to_customer
-change_delivery_method
-change_delivery_address
-reverse_delivery
+subtract_meat
+add_drink
+stage_for_delivery
+adjust_total
