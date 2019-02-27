@@ -1,5 +1,7 @@
 food
-    -food_types (array)
+
+Attributes:
+-food_types (array)
     -food_groups (hash)
     -food_weight (float)
     -food_name (string)
@@ -8,6 +10,8 @@ food
     -rating (integer)
     -price (float)
     -time_prepared (datetime)
+
+Methods:
     - order_food
     - deliver_food
     - add_item
